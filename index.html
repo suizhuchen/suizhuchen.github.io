@@ -1,27 +1,9 @@
+<!DOCTYPE HTML>
 <html lang="zh">
     <head>
-        <title>第五周</title>
+        <title>第九周</title>
         <meta content="text/html" charset="UTF-8">
         <style>
-            @keyframes SelfCheckAnimation {
-                from{background-color: orange;
-                    color: orange;}
-                to{color: white;}
-            }
-            .SelfCheck{
-                background-color: orange;
-                color: orange;
-            }
-            .UnSelfCheck{
-                background-color: white;
-                color: black;
-            }
-            .SelfCheck:hover{
-                animation-name:SelfCheckAnimation;
-                animation-timing-function:linear;
-                animation-duration: 0.2s;
-                animation-fill-mode: forwards;
-            }
             #main{
                 margin: 5px 222px 5px;
                 border-width: 1px;
@@ -33,6 +15,23 @@
             body{
                 background-color: #666666;
             }
+            iframe{
+                margin: auto;
+                height: 666px;
+                border: none;
+            }
+            #nocheck{
+                display: inherit;
+            }
+            #engcheck{
+                display: none;
+            }
+            #chncheck{
+                display: none;
+            }
+            #anniu{
+                margin: auto;
+            }
             a:link{color: blue}
             a:visited{color: blue}
             a:hover{color: aqua}
@@ -40,192 +39,38 @@
         </style>
     </head>
     <body>
-        <script>
-            function UnSelfCheck(){
-                for (let i=0; i<document.getElementsByClassName("SelfCheck").length;){
-                    document.getElementsByClassName('SelfCheck').item(i).className='UnSelfCheck'
-                }
-            }
-            function SelfCheck(){
-                for (let i=0; i<document.getElementsByClassName("UnSelfCheck").length;){
-                    document.getElementsByClassName('UnSelfCheck').item(i).className='SelfCheck'
-                }
-            }
-        </script>
         <div id="main">
-            <h1 style="text-align: center">第五周听写单词</h1>
-            <p style="text-align: center" ><a href="https://suizhuchen.github.io/Week5.docx">下载Word</a></p>
-            <p style="text-align: center" ><a href="https://suizhuchen.github.io/单选考点.docx">下载单选考点</a></p>
-            <h2 style="margin: 5px;">一、笔记单词</h2>
-            <button type="button" onclick="UnSelfCheck()">显示中文</button>
-            <button type="button" onclick="SelfCheck()">隐藏中文</button>
-            <p>1.comment on <span class="SelfCheck">评价</span></p>
-            <p>2.picture <span class="SelfCheck">描绘</span></p>
-            <p>3.expect <span class="SelfCheck">预料</span></p>
-            <p>4.thoughtful <span class="SelfCheck">周到的</span></p>
-            <p>5.be sick of sth <span class="SelfCheck">对……烦躁</span></p>
-            <p>6.play a joke on=make fun of <span class="SelfCheck">嘲笑</span></p>
-            <p>7.the 比较级，the 比较级  <span class="SelfCheck">越……越……</span></p>
-            <p>8.be jealous of sb <span class="SelfCheck">嫉妒某人</span></p>
-            <p>9.other than <span class="SelfCheck">除了</span></p>
-            <p>10.result in <span class="SelfCheck">导致</span></p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result from <span class="SelfCheck">来源</span></p>
-            <p>11.in short <span class="SelfCheck">总之</span></p>
-            <p>12.Chinese zodiac <span class="SelfCheck">生肖</span></p>
-            <p>13.be supposed to do <span class="SelfCheck">被认为</span></p>
-            <p>14.take in <span class="SelfCheck">吸收</span></p>
-            <p>15.conscious <span class="SelfCheck">意识</span></p>
-            <p>16.widespread <span class="SelfCheck">广泛的</span></p>
-            <p>17.interact <span class="SelfCheck">影响</span></p>
-            <p>18.tend to <span class="SelfCheck">趋向</span></p>
-            <p>19.obvious <span class="SelfCheck">明显的</span></p>
-            <p>20.subjective <span class="SelfCheck">主观的</span></p>
-            <p>21.objective <span class="SelfCheck">客观的</span></p>
-            <p>22.as soon as <span class="SelfCheck">一……就</span></p>
-            <p>23.trip <span class="SelfCheck">跌倒</span></p>
-
-            <h2 style="margin: 5px;">二、单词书I/J</h2>
-            <p>第7列：</p>
-            <p>24.from now on <span class="SelfCheck">从今以后</span></p>
-            <p>25.from then on <span class="SelfCheck">从那时起</span></p>
-            <p>26.from time to time <span class="SelfCheck">不时</span></p>
-            <p>27.from…to <span class="SelfCheck">从…到…</span></p>
-            <p>28.get along with <span class="SelfCheck">与…相处</span></p>
-            <p>29.get away <span class="SelfCheck">度假，离开</span></p>
-            <p>30.get back <span class="SelfCheck">返回，重新获得</span></p>
-            <p>31.get close (to) <span class="SelfCheck">接近</span></p>
-            <p>32.get down <span class="SelfCheck">俯身</span></p>
-            <p>33.get in <span class="SelfCheck">进入</span></p>
-            <p>34.get off <span class="SelfCheck">离开，停止谈论</span></p>
-            <p>35.get on with sb. <span class="SelfCheck">与某人相处</span></p>
-            <p>36.get on <span class="SelfCheck">上车</span></p>
-            <p>37.get through <span class="SelfCheck">消耗掉，到达（某人处），通过</span></p>
-            <p>38.get together <span class="SelfCheck">聚会</span></p>
-            <p>39.get up <span class="SelfCheck">起床</span></p>
-            <p>40.give away <span class="SelfCheck">赠送，分发，泄露</span></p>
-            <p>41.give back <span class="SelfCheck">归还，使恢复</span></p>
-            <p>第8列：</p>
-            <p>42.give in <span class="SelfCheck">屈服</span></p>
-            <p>43.give out <span class="SelfCheck">分发，公布</span></p>
-            <p>44.give up <span class="SelfCheck">放弃</span></p>
-            <p>45.go ahead <span class="SelfCheck">走在前面，领先，进行</span></p>
-            <p>46.go away <span class="SelfCheck">走开，离去，消失</span></p>
-            <p>47.go by <span class="SelfCheck">（时间）流逝</span></p>
-            <p>48.go fishing/shopping/skating <span class="SelfCheck">去钓鱼/买东西/滑冰</span></p>
-            <p>49.go for a walk <span class="SelfCheck">散步</span></p>
-            <p>50.go off <span class="SelfCheck">走开，（炸弹）爆炸，（电灯）熄灭，（食物）变质</span></p>
-            <p>51.go on doing… <span class="SelfCheck">不停地干某事</span></p>
-            <p>52.go on with <span class="SelfCheck">继续（做某事）</span></p>
-            <p>53.go on <span class="SelfCheck">继续，发生，上场，灯（亮）</span></p>
-            <p>54.go out <span class="SelfCheck">出局，熄灭，过时</span></p>
-            <p>55.go over <span class="SelfCheck">仔细检查，反复研究</span></p>
-            <p>56.go through <span class="SelfCheck">浏览，翻阅，经历，检查</span></p>
-            <p>57.grow up <span class="SelfCheck">长大成人</span></p>
-            <p>第9列：</p>
-            <p>58.had better (do) <span class="SelfCheck">最好（做）</span></p>
-            <p>59.hand in <span class="SelfCheck">上交，缴纳</span></p>
-            <p>60.hand out <span class="SelfCheck">分发</span></p>
-            <p>61.hang on <span class="SelfCheck">等待片刻</span></p>
-            <p>62.hang up <span class="SelfCheck">挂断电话</span></p>
-            <p>63.have a cold <span class="SelfCheck">患感冒</span></p>
-            <p>64.have a good time <span class="SelfCheck">玩的开心</span></p>
-            <p>65.have classes <span class="SelfCheck">上课</span></p>
-            <p>66.have fun <span class="SelfCheck">玩得高兴</span></p>
-            <p>67.have to <span class="SelfCheck">不得不，必须</span></p>
-            <p>68.hear from <span class="SelfCheck">收到…的来信</span></p>
-            <p>69.hear of <span class="SelfCheck">听说</span></p>
-            <p>70.help oneself <span class="SelfCheck">为..取用</span></p>
-            <p>71.help sb. with sth. <span class="SelfCheck">帮助某人做某事</span></p>
-            <p>72.help … out <span class="SelfCheck">帮助某人摆脱困境</span></p>
-            <p>73.hold on <span class="SelfCheck">等一等</span></p>
-            <p>74.hold one’s breath <span class="SelfCheck">屏住呼吸</span></p>
-            <p>75.hundreds of <span class="SelfCheck">成百上千</span></p>
-            <p>76.hurry up <span class="SelfCheck">赶快</span></p>
-            <p>第10列：</p>
-            <p>77.in a hurry <span class="SelfCheck">匆忙</span></p>
-            <p>78.in a word <span class="SelfCheck">总之</span></p>
-            <p>79.in all <span class="SelfCheck">总共</span></p>
-            <p>80.in common <span class="SelfCheck">共同</span></p>
-            <p>81.in danger <span class="SelfCheck">处于危险中</span></p>
-            <p>82.in fact <span class="SelfCheck">事实上</span></p>
-            <p>83.in front of <span class="SelfCheck">在……前面</span></p>
-            <p>84.in need of <span class="SelfCheck">有……的需要</span></p>
-            <p>85.in order that <span class="SelfCheck">为了</span></p>
-            <p>86.in order to <span class="SelfCheck">为了</span></p>
-            <p>87.in order <span class="SelfCheck">按顺序</span></p>
-            <p>88.in other words <span class="SelfCheck">换句话说</span></p>
-            <p>89.in peace <span class="SelfCheck">安静</span></p>
-            <p>90.in public <span class="SelfCheck">公开地；在别人面前</span></p>
-            <p>91.in surprise <span class="SelfCheck">吃惊</span></p>
-            <p>92.in the end <span class="SelfCheck">最后</span></p>
-            <p>93.in time <span class="SelfCheck">及时</span></p>
-            <p>94.instead of <span class="SelfCheck">代替</span></p>
-            <p>95.join in <span class="SelfCheck">参加</span></p>
-            <p>96.just <span class="SelfCheck">now刚才</span></p>
-            <p>第11列：</p>
-            <p>97.keep doing sth <span class="SelfCheck">继续做某事</span></p>
-            <p>98.keep off <span class="SelfCheck">避免吃喝吸某物，使不接近（接触，远离某人某物），回避某话题</span></p>
-            <p>99.keep on <span class="SelfCheck">继续</span></p>
-            <p>100.keep one’s word <span class="SelfCheck">守信</span></p>
-            <p>101.keep up <span class="SelfCheck">保持，维持，继续，跟上</span></p>
-            <p>102.knock at <span class="SelfCheck">敲门、窗户</span></p>
-            <p>103.knock into sb <span class="SelfCheck">偶然遇到</span></p>
-            <p>104.laugh at <span class="SelfCheck">嘲笑</span></p>
-            <p>105.lead to <span class="SelfCheck">导致</span></p>
-            <p>106.let……in <span class="SelfCheck">让进来</span></p>
-            <p>107.let out <span class="SelfCheck">散场</span></p>
-            <p>108.live on <span class="SelfCheck">靠……生活</span></p>
-            <p>109.look after <span class="SelfCheck">照顾</span></p>
-            <p>110.look ahead <span class="SelfCheck">向前看</span></p>
-            <p>111.look down upon <span class="SelfCheck">看不起</span></p>
-            <p>第12列：</p>
-            <p>112.look for <span class="SelfCheck">寻找</span></p>
-            <p>113.look forward to <span class="SelfCheck">盼望</span></p>
-            <p>114.look into <span class="SelfCheck">研究，调查</span></p>
-            <p>115.look out <span class="SelfCheck">当心</span></p>
-            <p>116.look through <span class="SelfCheck">快速查看</span></p>
-            <p>117.look up <span class="SelfCheck">查找</span></p>
-            <p>118.lots of <span class="SelfCheck">大量</span></p>
-            <p>119.make a face <span class="SelfCheck">做鬼脸</span></p>
-            <p>120.make friends with <span class="SelfCheck">与……交朋友</span></p>
-            <p>121.make up <span class="SelfCheck">构成，化妆，编造</span></p>
-            <p>122.make up one’s mind <span class="SelfCheck">下决心</span></p>
-            <p>123.millions of <span class="SelfCheck">成百万上千万</span></p>
-            <p>124.more or less <span class="SelfCheck">或多或少</span></p>
-            <p>125.neither nor <span class="SelfCheck">既不也不</span></p>
-            <p>126.next to <span class="SelfCheck">相邻</span></p>
-            <p>127.no longer <span class="SelfCheck">不再</span></p>
-            <p>128.not anymore <span class="SelfCheck">不再</span></p>
-            <p>129.not at all <span class="SelfCheck">不用谢</span></p>
-            <hr>
-            <h1 style="text-align: center">化学</h1>
-            <p style="text-align: center" ><a href="https://suizhuchen.github.io/化学.docx">下载Word</a></p>
-            <hr>
-            <h1 style="text-align: center">政治</h1>
-            <p>1.基本路线：</p>
-            <p>中国共产党团结和带领全国各族人民，以经济建设为中心，坚持四项基本原则，坚持改革开放，自力更生，艰苦创业，为把我国建设成为富强民主文明和谐美丽的社会主义现代化强国而奋斗。</p>
-            <p>2.改革开放如何促进社会发展？</p>
-            <p>A.逐步确立社会主义基本经济制度</p>
-            <p>B.广大人民群众参与社会劳动，创造社会财富的积极性和主动性空前高涨</p>
-            <p>C.尊重劳动，尊重知识，尊重人才，尊重创造已经成为社会共识。</p>
-            <p>以上内容节选自wch整理的月考前默写过的知识点，<a href="https://suizhuchen.github.io/道法.docx">点我下载</a></p>
-            <hr>
-            <button type="button" onclick="document.getElementById('fish').style.display='inline'">显示摸鱼内容</button>
-            <button type="button" onclick="document.getElementById('fish').style.display='none'">隐藏摸鱼内容</button>
-            <div id="fish" style="display: none">
-            <h1 style="text-align: center">链接跳转（为了一些不能摸鱼的同学(*^_^*)</h1>
-            <p><a href="https://www.bilibili.com">Bilibili</a></p>
-            <p><a href="https://www.bilibili.com/video/BV1GJ411x7h7">电信诈骗</a></p>
-            <p><a href="https://www.bilibili.com/video/BV1EN4y1V7MB">电信诈骗重制版</a></p>
-            <p><a href="https://www.bilibili.com/video/BV1kg411k7DC">失败的man</a></p>
-            <p><a href="https://www.bilibili.com/video/BV15g411r7Av">小黑子</a></p>
-            <p><a href="https://www.bilibili.com/video/BV1rA411g7q8">杰哥不要啊</a></p>
-            <p><a href="https://www.bilibili.com/video/BV1jA411e7sQ">阿伟 の 复仇</a></p>
-            <p><a href="https://www.bilibili.com/video/BV12G411t7Do">我删掉了...</a></p>
-            <p><a href="https://www.bilibili.com/video/BV1oY4y1u7e2">历史课（西欧庄园）</a></p>
+            <h1 style="text-align: center">第九周听写单词</h1>
+            <p style="text-align: center" ><a href="https://suizhuchen.github.io/Week9.docx">下载Word</a></p>
+            <div id="anniu">
+                <button type="button" onclick="nocheck()">全部显示</button>
+                <button type="button" onclick="engcheck()">英文隐藏</button>
+                <button type="button" onclick="chncheck()">中文隐藏</button>
             </div>
+            <iframe src="nocheck.html" id="nocheck"></iframe>
+            <iframe src="engcheck.html" id="engcheck"></iframe>
+            <iframe src="chncheck.html" id="chncheck"></iframe>
+            <hr>
+            <p><a href="https://www.bilibili.com">Bilibili</a></p>
             <hr>
             <h3 style="text-align: center">到底了，没有东西了~</h3>
+            <script>
+                function nocheck(){
+                    document.getElementById("nocheck").style.display="inherit"
+                    document.getElementById("engcheck").style.display="none"
+                    document.getElementById("chncheck").style.display="none"
+                }
+                function engcheck(){
+                    document.getElementById("nocheck").style.display="none"
+                    document.getElementById("engcheck").style.display="inherit"
+                    document.getElementById("chncheck").style.display="none"
+                }
+                function chncheck(){
+                    document.getElementById("nocheck").style.display="none"
+                    document.getElementById("engcheck").style.display="none"
+                    document.getElementById("chncheck").style.display="inherit"
+                }
+            </script>
         </div>
     </body>
 </html>
