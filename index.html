@@ -1,77 +1,78 @@
 <!DOCTYPE HTML>
 <html lang="zh">
-    <head>
-        <title>第九周</title>
-        <meta content="text/html" charset="UTF-8">
-        <style>
-            #main{
-                margin: 5px 222px 5px;
-                border-width: 1px;
-                border-style: solid;
-                border-color: black;
-                background-color: white;
-                height: auto;
-            }
-            body{
-                background-color: #666666;
-            }
-            .web{
-                margin: auto;
-                height: 666px;
-                border: none;
-            }
-            #nocheck{
-                display: inherit;
-            }
-            #engcheck{
-                display: none;
-            }
-            #chncheck{
-                display: none;
-            }
-            #anniu{
-                margin: auto;
-            }
-            a:link{color: blue}
-            a:visited{color: blue}
-            a:hover{color: aqua}
-            a:active{color: greenyellow}
-        </style>
-    </head>
-    <body>
-        <div id="main">
-            <h1 style="text-align: center">第九周听写单词</h1>
-            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1360704094&auto=0&height=66"></iframe>
-            <p style="text-align: center" ><a href="https://suizhuchen.github.io/Week9.docx">下载Word</a></p>
-            <div id="anniu">
-                <button type="button" onclick="nocheck()">全部显示</button>
-                <button type="button" onclick="engcheck()">英文隐藏</button>
-                <button type="button" onclick="chncheck()">中文隐藏</button>
-            </div>
-            <iframe src="nocheck.html" id="nocheck" class="web"></iframe>
-            <iframe src="engcheck.html" id="engcheck" class="web"></iframe>
-            <iframe src="chncheck.html" id="chncheck" class="web"></iframe>
-            <hr>
-            <p><a href="https://www.bilibili.com">Bilibili</a></p>
-            <hr>
-            <h3 style="text-align: center">到底了，没有东西了~</h3>
-            <script>
-                function nocheck(){
-                    document.getElementById("nocheck").style.display="inherit"
-                    document.getElementById("engcheck").style.display="none"
-                    document.getElementById("chncheck").style.display="none"
-                }
-                function engcheck(){
-                    document.getElementById("nocheck").style.display="none"
-                    document.getElementById("engcheck").style.display="inherit"
-                    document.getElementById("chncheck").style.display="none"
-                }
-                function chncheck(){
-                    document.getElementById("nocheck").style.display="none"
-                    document.getElementById("engcheck").style.display="none"
-                    document.getElementById("chncheck").style.display="inherit"
-                }
-            </script>
-        </div>
-    </body>
+<head>
+    <title>第十周</title>
+    <meta content="text/html" charset="UTF-8">
+    <style>
+        #main{
+            margin: 5px 222px 5px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            background-color: white;
+            height: auto;
+        }
+        body{
+            background-color: #666666;
+        }
+        .web{
+            margin: auto;
+            height: 666px;
+            border: none;
+            width: 666px;
+        }
+        #nocheck{
+            display: inherit;
+        }
+        #engcheck{
+            display: none;
+        }
+        #chncheck{
+            display: none;
+        }
+        #anniu{
+            margin: auto;
+        }
+        a:link{color: blue}
+        a:visited{color: blue}
+        a:hover{color: aqua}
+        a:active{color: greenyellow}
+    </style>
+</head>
+<body>
+<div id="main">
+    <h1 style="text-align: center">第十周听写单词</h1>
+    <p style="text-align: center" ><a href="https://suizhuchen.github.io/Week9.docx">下载Word</a></p>
+    <div id="anniu">
+        <button type="button" onclick="nocheck()">全部显示</button>
+        <button type="button" onclick="engcheck()">英文隐藏</button>
+        <button type="button" onclick="chncheck()">中文隐藏</button>
+    </div>
+    <iframe src="nocheck.html" id="nocheck" class="web"></iframe>
+    <iframe src="engcheck.html" id="engcheck" class="web"></iframe>
+    <iframe src="chncheck.html" id="chncheck" class="web"></iframe>
+    <hr>
+    <div style="margin: auto"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1913880518&auto=0&height=66"></iframe></div>
+    <p><a href="https://www.bilibili.com">Bilibili</a></p>
+    <hr>
+    <h3 style="text-align: center">到底了，没有东西了~</h3>
+    <script>
+        function nocheck(){
+            document.getElementById("nocheck").style.display="inherit"
+            document.getElementById("engcheck").style.display="none"
+            document.getElementById("chncheck").style.display="none"
+        }
+        function engcheck(){
+            document.getElementById("nocheck").style.display="none"
+            document.getElementById("engcheck").style.display="inherit"
+            document.getElementById("chncheck").style.display="none"
+        }
+        function chncheck(){
+            document.getElementById("nocheck").style.display="none"
+            document.getElementById("engcheck").style.display="none"
+            document.getElementById("chncheck").style.display="inherit"
+        }
+    </script>
+</div>
+</body>
 </html>
